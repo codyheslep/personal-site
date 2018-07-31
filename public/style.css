@@ -19,3 +19,33 @@ form div {
   margin: 1em;
   display: inline-block;
 }
+
+#navbar {
+  padding: 0;
+  margin: 0;
+}
+
+#backgroundpic {
+  padding: 0;
+  margin: 0;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+#content{
+  width: 80%;
+}
+
+.content{
+  width: 80% !important;
+  margin-left: 10% !important;
+}
+
+.calendar {
+  width: 80%;
+  margin-left: 10em;
+}
