@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //static middleware
 app.use(express.static(path.join(__dirname, '../public')));
 
-app.listen(8080, () => console.log(`Listening on 8080`))
+app.listen(57693, () => console.log(`Listening on 57693`))
 
 app.use('/api', require('./api'));
 
