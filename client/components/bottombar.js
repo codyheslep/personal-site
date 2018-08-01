@@ -4,7 +4,7 @@ import { Container, Divider } from 'semantic-ui-react'
 
 const BottomBar = () => {
   return (
-    <div>
+    <div className='bottombar'>
       <Divider hidden />
       <Divider />
       <Container textAlign='center' as='h5'>created by cody heslep | codyheslep@gmail.com</Container>

@@ -1,6 +1,7 @@
 const router = require('express').Router()
 module.exports = router
 
+router.use('/submit', require('./submit'))
 router.use('/users', require('./users'))
 
 router.use((req, res, next) => {

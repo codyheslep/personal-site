@@ -1,7 +1,16 @@
-body {
-  font-family: sans-serif;
+* {
+  font-family: Gill Sans, sans-serif;
 }
 
+body {
+  font-family: Gill Sans, sans-serif;
+  font-size: 15px !important;
+}
+h1{
+  color: grey !important;
+  font-size: 40px !important;
+  opacity: 0.5
+}
 a {
   text-decoration: none;
 }
@@ -41,11 +50,57 @@ form div {
 }
 
 .content{
-  width: 80% !important;
+  width: 70% !important;
+  margin-left: 15% !important;
+}
+.content-calendar{
+  width: 70% !important;
   margin-left: 10% !important;
 }
 
-.calendar {
-  width: 80%;
-  margin-left: 10em;
+.item {
+  text-align: center;
 }
+
+.pictures {
+  height: auto !important;
+  width: 500px !important;
+}
+
+.picturecontainer {
+  height: 250px !important;
+  width: 100px;
+  overflow: hidden !important;
+}
+
+.bottombar {
+  position: relative;
+
+}
+
+.expandedpics {
+    height: 40em;
+    width: auto !important;
+}
+
+.modal {
+  top: 5% !important;
+}
+
+#contactinfo{
+text-align: center
+}
+
+.custom-form {
+  display: relative;
+  justify-content: center;
+}
+
+#about{
+  margin-left: 1em;
+}
+
+#headperf{
+  margin-left: 3em;
+}
+
