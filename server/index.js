@@ -21,7 +21,7 @@ app.listen(process.env.PORT || 5000, () => console.log(`Listening on 5000`))
 
 app.use('/api', require('./api'));
 
-app.get('*', (req, res) => {
+app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '../public/index.html'));
 });
 
