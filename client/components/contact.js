@@ -37,7 +37,7 @@ class Contact extends React.Component {
         <Header as="h1" textAlign="centered">c o n t a c t - i n f o r m a t i o n</Header>
         <Divider />
         <Container textAlign='centered' id="contactinfo">
-          <Icon color="red" size="huge" name="mail" /> lucynduke@gmail.com <Icon color="red" size="huge" name="phone" /> (872) 808.6111
+          <Icon color="peach" size="huge" name="mail" /> lucynduke@gmail.com <Icon color="#db4d41" size="huge" name="phone" /> (872) 808.6111
           </Container>
         <Divider />
         <Header as="h1" textAlign="centered">r e q u e s t - i n f o r m a t i o n</Header>
