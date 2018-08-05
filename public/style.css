@@ -7,9 +7,8 @@ body {
   font-size: 15px !important;
 }
 h1{
-  color: grey !important;
-  font-size: 40px !important;
-  opacity: 0.5
+  color: #f4a909 !important;
+  font-size: 50px !important;
 }
 a {
   text-decoration: none;
@@ -34,7 +33,7 @@ form div {
   margin: 0;
 }
 
-#backgroundpic {
+.backgroundpic {
   padding: 0;
   margin: 0;
 }
@@ -50,9 +49,20 @@ form div {
 }
 
 .content{
-  width: 70% !important;
-  margin-left: 15% !important;
+  width: 80% !important;
+  margin-left: 10% !important;
 }
+
+.contentyellow{
+  width: 100% !important;
+  background-color: white
+}
+
+.contentred{
+  width: 100% !important;
+  background-color: #db4d41
+}
+
 .content-calendar{
   width: 70% !important;
   margin-left: 10% !important;
@@ -60,6 +70,7 @@ form div {
 
 .item {
   text-align: center;
+  height: 10em !important;
 }
 
 .pictures {
@@ -68,7 +79,7 @@ form div {
 }
 
 .picturecontainer {
-  height: 250px !important;
+  height: 200px !important;
   width: 100px;
   overflow: hidden !important;
 }
@@ -104,3 +115,46 @@ text-align: center
   margin-left: 3em;
 }
 
+#fabmenu{
+  position: absolute;
+  left: 5%;
+  top: 70%
+}
+
+
+#homeicon {
+  position: absolute;
+  left: 5%;
+  top: 80%
+}
+
+#projectsicon {
+  position: absolute;
+  left: 15%;
+  top: 80%
+}
+#writingsicon {
+  position: absolute;
+  right: 15%;
+  top: 80%
+}
+#experienceicon {
+  position: absolute;
+  right: 5%;
+  top: 80%
+}
+
+#homeicon p{
+  margin-left: 20px !important;
+  color: white
+}
+
+.resume{
+  width: 100% !important;
+  height: 90em !important;
+}
+
+.doc{
+  width: 100% !important;
+  height: 45em !important;
+}

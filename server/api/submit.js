@@ -14,7 +14,7 @@ router.post('/', async (req, res, next) => {
 
     let mailOptions = {
       from: 'codyheslep@gmail.com',
-      to: 'lucynduke@gmail.com',
+      to: 'codyheslep@gmail.com',
       subject: 'NEW WEB INQUIRY!',
       text: `name: ${req.body.name} \n email: ${req.body.email} \n phone: ${req.body.phone} \n about: ${req.body.about}`
     };

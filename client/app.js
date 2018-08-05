@@ -9,9 +9,9 @@ const App = () => {
   return (
     <div>
       <Header />
-      <Sticky>
+      {/* <Sticky>
         <Navbar />
-      </Sticky>
+      </Sticky> */}
       <Routes />
       <BottomBar />
     </div>

@@ -34,13 +34,13 @@ class Contact extends React.Component {
   render() {
     return (
       <Container className="content" >
-        <Header as="h1" textAlign="centered">c o n t a c t - i n f o r m a t i o n</Header>
+        <Header as="h1" textAlign="centered">_____contact info_____</Header>
         <Divider />
         <Container textAlign='centered' id="contactinfo">
-          <Icon color="peach" size="huge" name="mail" /> lucynduke@gmail.com <Icon color="#db4d41" size="huge" name="phone" /> (872) 808.6111
+          <Icon color="black" size="huge" name="mail" /> codyheslep@gmail.com <Icon color="black" size="huge" name="phone" /> (936) 777.0952
           </Container>
         <Divider />
-        <Header as="h1" textAlign="centered">r e q u e s t - i n f o r m a t i o n</Header>
+        <Header as="h1" textAlign="centered">_____request info_____</Header>
         <Divider />
         <div className="custom-form">
           <Form onSubmit={this.handleSubmit} itemsPerRow={3} >
