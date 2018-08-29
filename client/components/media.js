@@ -36,7 +36,7 @@ const Media = () => {
       </Grid>
       <Divider />
       <Header as="h1" textAlign="centered">_____writings_____</Header>
-      <Grid stackable columns={2} >
+      <Grid stackable columns={1} >
         <Grid.Row>
           <Grid.Column>
             <iframe src="https://docs.google.com/document/d/e/2PACX-1vT-pjoY3vg_oCVXqcGB6deHOq0x3NX43wesrTpKgzfp2DRAeinaITOzLQPlaskrjLS_BwnksCWKgWL8/pub?embedded=true" className="doc"></iframe>
