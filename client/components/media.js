@@ -6,13 +6,13 @@ const Media = () => {
   return (
     <Container className='content'>
       <Header as="h1" textAlign="centered">_____projects_____</Header>
-      <Grid columns={2} divided>
+      <Grid stackable columns={2}>
         <Grid.Row>
           <Grid.Column>
             <Item className="item">
               <Item.Content verticalAlign='middle'>
                 <Item.Header as="h4">Beethoven's Fifth Massacre</Item.Header>
-                <Item.Description>Working on my own, I utilized the Phaser game engine to create a classic arcade, side-scrolling shooter based around classical music icons. Beyond the coding, I implemented entirely custom animations and sprites.</Item.Description>
+                <Item.Description className='text'>Working on my own, I utilized the Phaser game engine to create a classic arcade, side-scrolling shooter based around classical music icons. Beyond the coding, I implemented entirely custom animations and sprites.</Item.Description>
                 <Item.Extra>
                   <Item.Description>June 2018</Item.Description>
                 </Item.Extra>
@@ -24,7 +24,7 @@ const Media = () => {
             <Item className="item">
               <Item.Content verticalAlign='middle'>
                 <Item.Header as="h4">Pothole Patrol</Item.Header>
-                <Item.Description>Implemented over the course of two weeks with four junior developers, Pothole Patrol is a custom suite of apps to make it easier for both residents to report potholes and for the city to efficiently repair them. </Item.Description>
+                <Item.Description className='text'>Implemented over the course of two weeks with four junior developers, Pothole Patrol is a custom suite of apps to make it easier for both residents to report potholes and for the city to efficiently repair them. </Item.Description>
                 <Item.Extra>
                   <Item.Description>July 2018</Item.Description>
                 </Item.Extra>
@@ -36,7 +36,7 @@ const Media = () => {
       </Grid>
       <Divider />
       <Header as="h1" textAlign="centered">_____writings_____</Header>
-      <Grid columns={2} divided>
+      <Grid stackable columns={2} >
         <Grid.Row>
           <Grid.Column>
             <iframe src="https://docs.google.com/document/d/e/2PACX-1vT-pjoY3vg_oCVXqcGB6deHOq0x3NX43wesrTpKgzfp2DRAeinaITOzLQPlaskrjLS_BwnksCWKgWL8/pub?embedded=true" className="doc"></iframe>

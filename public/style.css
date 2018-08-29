@@ -158,3 +158,37 @@ text-align: center
   width: 100% !important;
   height: 45em !important;
 }
+
+
+@media only screen and (max-width: 600px) {
+  #projectsicon {
+    position: absolute;
+    width: 5% !important;
+    left: 15%;
+    top: 70%
+  }
+  #writingsicon {
+    position: absolute;
+    right: 15%;
+    top: 70%
+  }
+  #experienceicon {
+    position: absolute;
+    right: 0%;
+    top: 70%
+  }
+  #homeicon {
+    position: absolute;
+    left: 0%;
+    top: 70%;
+  }
+  h1{
+    color: #f4a909 !important;
+    font-size: 20px !important;
+  }
+
+  body {
+    font-family: Gill Sans, sans-serif;
+    font-size: 10px !important;
+  }
+}
