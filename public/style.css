@@ -125,23 +125,23 @@ text-align: center
 #homeicon {
   position: absolute;
   left: 5%;
-  top: 80%
+  top: 70%
 }
 
 #projectsicon {
   position: absolute;
   left: 15%;
-  top: 80%
+  top: 70%
 }
 #writingsicon {
   position: absolute;
   right: 15%;
-  top: 80%
+  top: 70%
 }
 #experienceicon {
   position: absolute;
   right: 5%;
-  top: 80%
+  top: 70%
 }
 
 #homeicon p{
