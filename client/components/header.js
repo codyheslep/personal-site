@@ -8,22 +8,22 @@ const Header = () => {
       <Image src="./codybackground2.png" className="backgroundpic" />
       <div id="homeicon">
         <Link to='/'>
-          <Icon circular inverted loading name="home" size="huge" color="yellow" />
+          <Icon name="home" size="huge" color="yellow" />
         </Link>
       </div>
       <div id="projectsicon">
         <Link to='/media'>
-          <Icon circular inverted loading name="lightbulb" size="huge" color="yellow" />
+          <Icon name="lightbulb" size="huge" color="yellow" />
         </Link>
       </div>
       <div id="writingsicon">
         <Link to='/experience'>
-          <Icon  circular inverted loading name="rocket" size="huge" color="yellow" />
+          <Icon name="rocket" size="huge" color="yellow" />
         </Link>
       </div>
       <div id="experienceicon">
         <Link to='/contact'>
-          <Icon circular inverted loading name="pencil" size="huge" color="yellow" />
+          <Icon name="pencil" size="huge" color="yellow" />
         </Link>
       </div>
     </div>
