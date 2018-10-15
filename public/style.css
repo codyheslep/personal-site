@@ -7,9 +7,19 @@ body {
   font-size: 15px !important;
 }
 h1{
-  color: #f4a909 !important;
-  font-size: 50px !important;
+  color: #db4d41 !important;
+  font-size: 40px !important;
+  margin-top: 10px !important;
 }
+
+h2{
+  color: #db4d41 !important;
+  font-size: 30px !important;
+  margin-top: 20px !important;
+}
+p{
+width: 25% !important;
+color: green !important}
 a {
   text-decoration: none;
 }
@@ -90,10 +100,11 @@ form div {
 .pictures {
   height: auto !important;
   width: 500px !important;
+  overflow: hidden !important;
 }
 
 .picturecontainer {
-  height: 200px !important;
+  height: 140px !important;
   width: 100px;
   overflow: hidden !important;
 }
@@ -139,23 +150,23 @@ text-align: center
 #homeicon {
   position: absolute;
   left: 5%;
-  top: 70%
+  top: 80%
 }
 
 #projectsicon {
   position: absolute;
   left: 15%;
-  top: 70%
+  top: 80%
 }
 #writingsicon {
   position: absolute;
   right: 15%;
-  top: 70%
+  top: 80%
 }
 #experienceicon {
   position: absolute;
   right: 5%;
-  top: 70%
+  top: 80%
 }
 
 #homeicon p{
@@ -175,7 +186,19 @@ text-align: center
 
 .pixel {
   height: 100% !important;
+  background-color: #f4a909
 }
+
+.writing{
+  width: 70% !important;
+  left: 15% !important;
+}
+
+.meta{
+  color: #db4d41 !important
+}
+
+
 
 
 @media only screen and (max-width: 600px) {

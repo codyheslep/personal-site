@@ -6,7 +6,6 @@ const Pictures = () => {
   return (
     <div>
       <Container>
-        <Header as="h1" textAlign="centered">_____pictures_____</Header>
         <Card.Group stackable centered itemsPerRow={3}>
           <Modal className="modal" trigger={<Card className="picturecontainer">
             <Image src='./15.jpg' centered className="pictures" />
